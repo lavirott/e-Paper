@@ -6,7 +6,7 @@ INST_DIR=$PWD
 mkdir $INST_DIR
 cd $INST_DIR
 
-Install BCM2835 library
+# Install BCM2835 library
 
 wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.58.tar.gz
 tar zxvf bcm2835-1.58.tar.gz
