@@ -2,9 +2,9 @@
 
 # https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT
 
-INST_DIR=~/e-Paper
-mkdir $INST_DIR
-cd $INST_DIR
+INST_DIR=$PWD
+# mkdir $INST_DIR
+# cd $INST_DIR
 
 # Install BCM2835 library
 
