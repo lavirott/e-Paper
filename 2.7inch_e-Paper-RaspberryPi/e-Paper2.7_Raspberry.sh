@@ -2,7 +2,7 @@
 
 # https://www.waveshare.com/wiki/2.7inch_e-Paper_HAT
 
-INST_DIR=~/e-Paper
+INST_DIR=~/e-Paper2.7
 mkdir $INST_DIR
 cd $INST_DIR
 
@@ -32,7 +32,7 @@ sudo pip install spidev
 sudo pip install RPi.GPIO
 
 # Install python3 library
-apt-get install python3-pip python-imaging
+sudo apt-get install python3-pip python-imaging
 sudo pip3 install spidev 
 sudo pip3 install Rpi.GPIO 
 sudo pip3 install Pillow
